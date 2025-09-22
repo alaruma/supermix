@@ -1,67 +1,81 @@
-# 🛒 Projeto SuperMix – Análise de Clientes e Consumo
+# 🛍️ SuperMix - Análise de Clientes e Consumo
 
-Análise do perfil sociodemográfico, comportamental e financeiro dos clientes da rede **SuperMix** (RMR – Região Metropolitana do Recife).  
-Base construída a partir da integração de **cadastro, compras e pagamentos** da antiga rede Baratão, adquirida pelo grupo SuperMix.  
+Análise do perfil socioeconômico e comportamental dos clientes da rede **SuperMix**, a partir dos dados da antiga rede Baratão, adquirida pelo grupo.  
+O foco está em entender **quem são os clientes, como consomem e como se comportam nos pagamentos** na Região Metropolitana do Recife (RMR).
 
 ---
 
-## 🎯 Objetivo
-Identificar o perfil dos clientes e entender padrões de consumo, comportamento de compra e pagamento, além de potenciais oportunidades de negócio.
+## 📑 Índice
+- [🎯 Objetivo do Projeto](#-objetivo-do-projeto)
+- [🗂️ Base de Dados](#️-base-de-dados)
+- [📊 Resultados da Análise](#-resultados-da-análise)
+- [🛠️ Ferramentas Utilizadas](#️-ferramentas-utilizadas)
+- [📈 Dashboard Interativo](#-dashboard-interativo)
+- [📌 Conclusões](#-conclusões)
+
+---
+
+## 🎯 Objetivo do Projeto
+Identificar o perfil sociodemográfico e os padrões de consumo dos clientes da RMR, considerando dados históricos de **cadastro, compras e pagamentos**.
 
 ---
 
 ## 🗂️ Base de Dados
-- **Cadastro de clientes** → sexo, faixa etária, escolaridade, estado civil, renda, dependentes, canal de captação.  
-- **Compras realizadas** → valor, categoria, canal, forma de pagamento, status de entrega.  
-- **Pagamentos** → valor original/pago, situação, forma de pagamento, atraso em dias.  
+O projeto integra três fontes principais:
 
-> Dados anonimizados e utilizados exclusivamente para fins educacionais (LGPD).  
+- **Cadastro de clientes** → sexo, faixa etária, escolaridade, estado civil, renda, número de dependentes, canal de captação.  
+- **Compras realizadas** → valor, categoria, canal de compra, status de entrega e forma de pagamento.  
+- **Pagamentos** → valor original, valor pago, forma e situação de pagamento, atraso em dias.  
 
----
-
-## 👥 Perfil dos Clientes
-- **Sexo**: 51% feminino.  
-- **Faixa etária**: predominância entre **25–44 anos**.  
-- **Renda média**: R$ 2.300, com pouca variação por sexo ou escolaridade.  
-- **Dependentes**: média de **1,5 por cliente**.  
-- **Score**: cresce com idade e escolaridade, mas não garante adimplência.  
-- **Estado civil**: solteiros(as) e casados(as) com maior representatividade.  
+🔒 Todos os dados foram **anonimizados** e utilizados exclusivamente para fins educacionais, em conformidade com a **LGPD**.
 
 ---
 
-## 🛍️ Comportamento de Compra
-- **Canais digitais (App/Online)** → predominantes, especialmente entre mulheres de nível médio.  
-- **Loja física** → menor participação, mas ainda relevante.  
-- **Ticket médio**:
-  - 25–59 anos com dependentes gastam mais.  
-  - 18–24 e 60+ sem dependentes têm consumo mais individualizado.  
+## 📊 Resultados da Análise
+
+### 👤 Perfil dos Clientes
+- 51% são do sexo **feminino**.  
+- Faixa etária predominante: **25–44 anos**.  
+- Média de **1,5 dependente por cliente**.  
+- Renda mensal média: **R$ 2.300**, com pequenas variações por escolaridade e estado civil.  
+
+### 🛍️ Comportamento de Compra
+- Crescente uso de **canais digitais (App/Online)** para cadastro e compras.  
+- **Ticket médio maior** em clientes de 25–59 anos com dependentes.  
+- **Categorias mais consumidas**: Alimentos, Higiene Pessoal e Limpeza.  
+
+### 💳 Comportamento de Pagamento
+- Mulheres apresentam **maior regularidade** nos pagamentos.  
+- Homens concentram mais **faturas em aberto/parciais**.  
+- Score alto **não garante** bom comportamento de pagamento.  
+
+### 🎯 Insights Relevantes
+- 11% dos clientes têm renda acima de **R$ 4.635**, com alto potencial de fidelização.  
+- Clientes **18–24 e 60+** apresentam **ticket médio mais alto**, apesar de menor volume.  
+- Parcelamentos (até 4x) são mais comuns em clientes de renda e escolaridade mais altas.  
 
 ---
 
-## 💳 Comportamento de Pagamento
-- Mulheres tendem a estar mais em dia com pagamentos.  
-- Homens apresentam mais faturas em aberto/parciais, mas têm scores mais altos em faixas de renda > R$ 4.600.  
-- **Atenção**: situação *“Em Aberto”* ≠ inadimplência (pode indicar fatura ainda não vencida).  
+## 🛠️ Ferramentas Utilizadas
+- **Python** → ETL, EDA e visualizações.  
+- **SQL** → consultas e integração de dados.  
+- **Power BI / Looker Studio** → dashboards interativos.  
+- **Excel/Google Sheets** → apoio em organização e métricas.  
 
 ---
 
-## 📦 Consumo por Categoria
-- **Mais compradas**: Alimentos, Higiene Pessoal e Limpeza.  
-- **Diferenças por gênero**:  
-  - Mulheres → mais Alimentos e Higiene.  
-  - Homens → mais Bebidas e Descartáveis.  
-- **Parcelamentos (~25%)**: comuns em clientes de maior renda, escolaridade e entre 25–59 anos, principalmente em **Utilidades Domésticas**.  
+## 📈 Dashboard Interativo
+👉 [Clique aqui para acessar o Dashboard](https://lookerstudio.google.com/s/srMDX34B4wc)  
+
+*(substitua pelo link do seu dashboard real)*
 
 ---
 
-## 📈 Lucros e Ticket Anual
-- **2024**: pico de receita (ano completo analisado).  
-- **2025**: já mostra tendência de crescimento, mesmo com apenas 6 meses de dados.  
-- Ticket médio por categoria estável ao longo dos anos.  
+## 📌 Conclusões
+- O perfil dos clientes do SuperMix acompanha o padrão da RMR, mas o **comportamento de compra e pagamento** traz nuances importantes.  
+- Há espaço para explorar **fidelização de clientes digitais** e **segmentos de alto ticket médio**.  
+- Estratégias específicas podem melhorar a relação com públicos jovens (18–24) e mais velhos (60+), aproveitando seu potencial de consumo.  
 
 ---
 
-## 🎯 Insights & Oportunidades
-- Grupo de **25–44 anos, com escolaridade superior/pós e renda > R$ 4.635** → alto potencial de consumo e fidelização.  
-- **Jovens (18–24) e idosos (60+)** → menor volume, mas ticket médio mais alto → podem ser estratégicos.  
-- Score elevado não garante boa adimplência → recomendável combinar múltiplos indicadores.  
+✍️ Projeto desenvolvido por **Laura Marinho** — [Portfólio](https://sites.google.com/view/laurammarinho/p%C3%A1gina-inicial)
