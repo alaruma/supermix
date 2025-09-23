@@ -1,8 +1,16 @@
 # 🛍️ SuperMix - Análise de Clientes e Consumo
+Este projeto foi desenvolvido como entrega final do bootcamp Vem Pra Dados, Mulher (parceria entre Télos e Neurotech).
+Todos os dados utilizados foram tratados de forma fictícia e respeitando a LGPD – servindo unicamente para fins de aprendizado e prática em análise de dados.
 
-Análise do perfil socioeconômico e comportamental dos clientes da rede **SuperMix**, a partir dos dados da antiga rede Baratão, adquirida pelo grupo.  
-O foco está em entender **quem são os clientes, como consomem e como se comportam nos pagamentos** na Região Metropolitana do Recife (RMR).
+O contexto de negócio é o seguinte:
+O grupo SuperMix adquiriu a rede varejista Baratão na Região Metropolitana do Recife (RMR) e precisa entender melhor o seu novo público. O objetivo é identificar o perfil socioeconômico dos clientes, seus padrões de consumo e também o comportamento em relação aos pagamentos.
 
+Com isso, a rede poderá:
+
+Definir estratégias de marketing mais direcionadas.
+Ajustar campanhas de fidelização.
+Compreender riscos de inadimplência.
+Apoiar decisões estratégicas de expansão e gestão da rede.
 ---
 
 ## 📑 Índice
@@ -16,7 +24,10 @@ O foco está em entender **quem são os clientes, como consomem e como se compor
 ---
 
 ## 🎯 Objetivo do Projeto
-Identificar o perfil sociodemográfico e os padrões de consumo dos clientes da RMR, considerando dados históricos de **cadastro, compras e pagamentos**.
+- Identificar o perfil socioeconômico dos clientes da RMR.
+- Mapear o comportamento de consumo (categorias mais compradas, ticket médio, sazonalidade).
+- Analisar o comportamento de pagamento e potenciais riscos de inadimplência.
+- Gerar insights acionáveis para apoiar decisões estratégicas do SuperMix.
 
 ---
 
@@ -67,7 +78,6 @@ O projeto integra três fontes principais:
 ## 📈 Dashboard Interativo
 👉 [Clique aqui para acessar o Dashboard](https://lookerstudio.google.com/s/srMDX34B4wc)  
 
-*(substitua pelo link do seu dashboard real)*
 
 ---
 
@@ -78,4 +88,4 @@ O projeto integra três fontes principais:
 
 ---
 
-✍️ Projeto desenvolvido por **Laura Marinho** — [Portfólio](https://sites.google.com/view/laurammarinho/p%C3%A1gina-inicial)
+✍️ Projeto desenvolvido por **Laura Marinho** 
