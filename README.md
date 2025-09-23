@@ -7,10 +7,10 @@ O grupo SuperMix adquiriu a rede varejista Baratão na Região Metropolitana do 
 
 Com isso, a rede poderá:
 
-Definir estratégias de marketing mais direcionadas.
-Ajustar campanhas de fidelização.
-Compreender riscos de inadimplência.
-Apoiar decisões estratégicas de expansão e gestão da rede.
+- Definir estratégias de marketing mais direcionadas.
+- Ajustar campanhas de fidelização.
+- Compreender riscos de inadimplência.
+- Apoiar decisões estratégicas de expansão e gestão da rede.
 ---
 
 ## 📑 Índice
